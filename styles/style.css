@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Coustard:wght@900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Asap, sans-serif;
+}
+
+#project-title {
+  font-family: Coustard, sans-serif;
+}
+
+.nav-bar {
+  max-width: 500px;
+}
+
+.link {
+  color: brown;
+  display: block;
+  padding: 5px;
+  line-height: 2;
+  text-decoration: none;
+  border-radius: 5px 5px 0 0;
+  transition: 0.4s ease-in-out;
+}
+
+.link:hover {
+  color: #ffffff;
+  background-color: darkgoldenrod;
+  font-weight: 900;
+}
+
+.link svg {
+  width: 20px;
+  height: 20px;
+}
