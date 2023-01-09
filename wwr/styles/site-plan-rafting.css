@@ -33,7 +33,7 @@ body {
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
 }
 img {
   display: block;
@@ -71,6 +71,10 @@ p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
   padding: 1em;
+}
+ul {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color-on-white);
 }
 .colors {
   width: 100%;
