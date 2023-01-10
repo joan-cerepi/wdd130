@@ -5,25 +5,26 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #081c15;
-  --secondary-color: #1b4332;
-  --accent1-color: #d8f3dc;
-  --accent2-color: #b7e4c7;
+  --primary-color: #162e3c;
+  --secondary-color: #a2cda9;
+  --accent1-color: #3c2615;
+  --accent2-color: #eabe86;
+  --accent3-color: #2e2723;
 
   /* change the values below to your chosen font(s) */
   --heading-font: Coustard;
   --paragraph-font: Asap, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #081c15; /* headlines on a white background */
-  --headline-color-on-color: #d8f3dc; /* headlines on a colored background */
-  --paragraph-color-on-white: #081c15; /* paragraph text on a white background */
-  --paragraph-color-on-color: #d8f3dc; /* paragraph text on a colored background */
-  --paragraph-background-color: #1b4332;
-  --nav-link-color: #d8f3dc;
-  --nav-background-color: #1b4332;
-  --nav-hover-link-color: #1b4332;
-  --nav-hover-background-color: #b7e4c7;
+  --headline-color-on-white: #3c2615; /* headlines on a white background */
+  --headline-color-on-color: #a2cda9; /* headlines on a colored background */
+  --paragraph-color-on-white: #3c2615; /* paragraph text on a white background */
+  --paragraph-color-on-color: #a2cda9; /* paragraph text on a colored background */
+  --paragraph-background-color: #162e3c;
+  --nav-link-color: #2e2723;
+  --nav-background-color: #eabe86;
+  --nav-hover-link-color: #a2cda9;
+  --nav-hover-background-color: #162e3c;
 }
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
@@ -86,7 +87,7 @@ ul {
   background-color: #999;
 }
 .colors td {
-  width: 25%;
+  width: 20%;
   height: 3em;
 }
 .primary {
@@ -100,6 +101,9 @@ ul {
 }
 .accent2 {
   background-color: var(--accent2-color);
+}
+.accent3 {
+  background-color: var(--accent3-color);
 }
 p.colored {
   background-color: var(--paragraph-background-color);
