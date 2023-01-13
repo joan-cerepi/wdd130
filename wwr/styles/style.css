@@ -1,5 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap&family=Coustard:wght@900&display=swap");
+
 body {
   background-color: #a2cda94d;
+  font-family: Asap, "Trebuchet MS", sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 
 #content {
@@ -11,9 +17,17 @@ header {
   background-color: #2e2723;
 }
 
-.logo,
-.icon {
+.logo {
   width: 80px;
+}
+
+.icon {
+  padding-top: 10px;
+  width: 80px;
+}
+
+#logo_link {
+  padding-top: 5px;
 }
 
 /* nav-bar section */
@@ -23,6 +37,7 @@ nav {
 
 nav a {
   color: #2e2723;
+  padding: 35px;
   text-align: center;
   text-decoration: none;
 }
@@ -44,15 +59,40 @@ nav a:hover {
 
 .home-title {
   color: #3c2615;
+  font-family: Coustard, Georgia, serif;
+  font-size: 2em;
+  margin-top: 10px;
 }
 
 h4 {
   color: #3c2615;
 }
 
+h2 {
+  margin: 0;
+}
+
 /* ------------------------------ */
 main section {
   text-align: center;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin: 200px 0;
+}
+
+.card-img {
+  border: 10px solid black;
+}
+
+main section h2 {
+  font-family: Coustard, Georgia, serif;
+}
+
+main section img {
+  box-sizing: border-box;
 }
 
 #background {
@@ -68,7 +108,11 @@ main section {
 .book,
 .join {
   background-color: #eabe86;
+  border-radius: 5px;
   color: #2e2723;
+  font-size: 18px;
+  margin-top: 50px;
+  padding: 15px 30px;
   text-decoration: none;
 }
 
@@ -81,20 +125,27 @@ main section {
 /* message area */
 .msg {
   background-color: #2e27232e;
+  line-height: 1.5em;
+  padding: 35px;
 }
 
 .msg h2 {
   color: #2e2723;
+  font-family: Coustard, Georgia, serif;
 }
 
 .msg p {
   color: #2e2723;
+  font-size: .8em;
+  padding-bottom: 15px;
 }
 
 /* footer area */
 footer {
   background-color: #2e2723;
   color: #ffffff;
+  margin-top: 200px;
+  padding: 25px 50px;
 }
 
 footer a {
@@ -113,4 +164,8 @@ footer p {
 
 footer p a:hover {
   text-decoration: underline;
+}
+
+footer .social img {
+  padding-top: 15px;
 }
