@@ -98,17 +98,23 @@
   grid-template-rows: 1fr 1fr 1fr;
 }
 .red4 {
+  grid-column: 1 / 2;
   grid-row: 1 / 4;
   background-color: red;
 } 
 .green4 {
-  height: 100%;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
   background-color: green;
 } 
 .yellow4 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
   background-color: gold; 
 } 
 .blue4 {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
   background-color: blue; 
 } 
 /* Activity 5 styles */ 
