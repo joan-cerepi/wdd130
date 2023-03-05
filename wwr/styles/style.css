@@ -289,7 +289,7 @@ footer .social img {
 
 .service-list {
   background-color: #a2cda94d;
-  grid-template: 3 / 4;
+  grid-column: 3 / 4;
   grid-row: 1 / 2;
   width: 97%;
   height: 345px;
