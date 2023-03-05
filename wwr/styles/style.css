@@ -299,7 +299,7 @@ footer .social img {
   color: #162e3c;
   font-family: Coustard, serif;
   text-align: center;
-  padding: 15px 0;
+  padding: 20px 0;
 }
 
 .service-list ul {
@@ -340,6 +340,7 @@ footer .social img {
   color: #162e3c;
   font-family: Coustard, Georgia, serif;
   text-align: center;
+  padding: 15px 0;
 }
 
 .detailed-services {
@@ -349,7 +350,8 @@ footer .social img {
 }
 
 .detailed-services h3 {
-  font-family: Coustard, serif;
+  color: #162e3c;
+  font-family: Coustard, Georgia, serif;
 }
 
 .detailed-services ul {
@@ -360,9 +362,49 @@ footer .social img {
 .testimonials {
   background-color: #eabe8644;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: Asap, sans-serif;
+  justify-items: center;
   width: 100%;
-  height: 500px;
+  height: 600px;
   margin-top: 20px;
+}
+
+.title {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  align-self: normal;
+}
+
+.title h2 {
+  color: #162e3c;
+  font-family: Coustard, serif;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.person {
+  text-align: justify;
+}
+
+.person img {
+  width: 200px;
+  height: 200px;
+  transition: .3s ease-in-out;
+}
+
+.person img:hover {
+  transform: scale(1.2);
+  margin-bottom: 25px;
+}
+
+.person figcaption {
+  text-align: center;
+}
+
+.person p {
+  width: 75%;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 900px) {
