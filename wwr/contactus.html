@@ -28,23 +28,20 @@
         <div id="exit">&times;</div>
     
         <form action="/my-handling-form-page" method="post">
-          <ul>
-            <li>
+            <div class="form-item">
               <label for="name">Name:</label>
               <input type="text" id="name" name="user_name" />
-            </li>
-            <li>
+            </div>
+            <div class="form-item">
               <label for="mail">Email:</label>
               <input type="email" id="mail" name="user_email" />
-            </li>
-            <li>
+            </div>
+            <div class="form-item">
               <label for="msg">Message:</label>
               <textarea id="msg" name="user_message"></textarea>
-            </li>
-            <li class="button">
-              <button type="submit">Send your message</button>
-            </li>
-          </ul>
+            </div>
+
+            <button type="submit" class="button">Send your message</button>
         </form>
       </main>
 
