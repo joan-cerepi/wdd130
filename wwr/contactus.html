@@ -28,20 +28,20 @@
         <div id="exit">&times;</div>
     
         <form action="/my-handling-form-page" method="post">
-            <div class="form-item">
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="user_name" />
-            </div>
-            <div class="form-item">
-              <label for="mail">Email:</label>
-              <input type="email" id="mail" name="user_email" />
-            </div>
-            <div class="form-item">
-              <label for="msg">Message:</label>
-              <textarea id="msg" name="user_message"></textarea>
-            </div>
+          <div class="form-item">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" />
+          </div>
+          <div class="form-item">
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="user_email" />
+          </div>
+          <div class="form-item">
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </div>
 
-            <button type="submit" class="button">Send your message</button>
+          <button type="submit" class="button">Send your message</button>
         </form>
       </main>
 
@@ -81,7 +81,7 @@
         // add a class to move everything down so our message doesn't cover it.
         document.body.classList.add('moveDown');
         // make the exit button element visible.
-        exitBtn.style.display = 'inline-block';
+        exitBtn.style.display = 'block';
       });
 
       // run the code below when the exit button is clicked.
