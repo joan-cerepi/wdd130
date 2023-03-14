@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Source+Serif+Pro:ital@0;1&display=swap');
+
+/* variables */
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #011936;
+  --secondary-color: #E5F2C9;
+  --accent1-color: #2D4620;
+  --accent2-color: #983906;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: Oswald;
+  --paragraph-font: 'Source Serif Pro', sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #011936;
+  /* headlines on a white background */
+  --headline-color-on-color: #E5F2C9;
+  /* headlines on a colored background */
+  --paragraph-color-on-white: #000000;
+  /* paragraph text on a white background */
+  --paragraph-color-on-color: #E5F2C9;
+  /* paragraph text on a colored background */
+  --paragraph-background-color: #2D4620;
+  --nav-link-color: #E5F2C9;
+  --nav-background-color: #983906;
+  --nav-hover-link-color: #E5F2C9;
+  --nav-hover-background-color: #2D4620;
+}
+
+/* General rules */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* Content Wrapper */
+.wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Header section styling and layout */
+header {
+  background-color: var(--accent2-color);
+  color: var(--secondary-color);
+  display: grid;
+  grid-template-columns: 150px auto auto;
+  grid-column-gap: 30px;
+  align-items: center;
+  justify-items: center;
+  font-family: var(--paragraph-font);
+}
+
+.logo-link {
+  align-self: top;
+  justify-self: left;
+}
+
+.logo-img {
+  width: 100%;
+  height: auto;
+}
+
+.header-title {
+  letter-spacing: 1.5px;
+  justify-self: normal;
+  width: 50%;
+}
+
+/* Navigation section */
+.nav-bar {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+}
+
+.nav-bar a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
